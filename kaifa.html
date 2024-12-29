@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>开发中</title>
+    <style>
+        /* 样式重置 */
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #333;
+            overflow: hidden; /* 清除浮动 */
+        }
+
+        nav ul {
+            list-style-type: none; /* 移除列表项的点 */
+        }
+
+        nav li {
+            float: left; /* 使列表项横向排列 */
+        }
+
+        nav li a {
+            display: block; /* 使链接块级化 */
+            color: white; /* 文字颜色 */
+            text-align: center; /* 文字居中 */
+            padding: 14px 16px; /* 内边距 */
+            text-decoration: none; /* 移除链接下划线 */
+        }
+
+        nav li a:hover {
+            background-color: #111; /* 悬停时的背景色 */
+        }
+    </style>
 </head>
 <body>
     <nav>
